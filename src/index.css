@@ -51,6 +51,7 @@ button {
 input[type="checkbox"] {
   width: 2rem;
   height: 1.9rem;
+  accent-color: red;
 }
 .trash-can {
   color: #082105;
@@ -80,6 +81,7 @@ input[type="checkbox"] {
   font-size: 20px;
 }
 .deleteBtn {
+  width: 40px;
   height: 32px;
   font-size: 26px;
 }
