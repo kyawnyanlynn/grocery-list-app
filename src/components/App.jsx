@@ -39,7 +39,7 @@ export default function App() {
   );
 }
 function Logo() {
-  return <h1>စျေးဝယ်စာ၇င်း</h1>;
+  return <h1>စျေးဝယ်စာရင်း</h1>;
 }
 
 function Form({ onAddItems }) {
