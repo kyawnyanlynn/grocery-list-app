@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrashCan, faCartShopping } from "@fortawesome/free-solid-svg-icons"; // let initialItems = [
+import { faTrashCan, faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { Analytics } from "@vercel/analytics/react"; // let initialItems = [
 //   { amount: 1, name: "Onion", bought: false },
 //   { amount: 2, name: "Milk", bought: false },
 //   { amount: 3, name: "Tomatoes", bought: true },
@@ -35,6 +36,7 @@ export default function App() {
       />
       <Clear onClearList={handleClearList} />
       <Footer items={items} />
+      <Analytics />
     </div>
   );
 }
