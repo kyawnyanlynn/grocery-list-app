@@ -138,7 +138,7 @@ function Footer({ items }) {
       ) : (
         <p>
           စျေးဝယ်စာ၇င်း {percentage}% ကိုဝယ်ပီးပါပီ။{" "}
-          <FontAwesomeIcon icon={faCartShopping} />
+          <FontAwesomeIcon icon={faCartShopping} />{" "}
         </p>
       )}
     </footer>
