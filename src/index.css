@@ -80,6 +80,7 @@ input[type="checkbox"] {
   font-size: 20px;
 }
 .deleteBtn {
+  height: 32px;
   font-size: 26px;
 }
 .clearBtn {
