@@ -141,6 +141,7 @@ function Footer({ items }) {
           <FontAwesomeIcon icon={faCartShopping} />{" "}
         </p>
       )}
+      <small>Copyright © Lynn. All Rights Reserved. </small>
     </footer>
   );
 }
