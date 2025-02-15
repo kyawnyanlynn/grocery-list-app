@@ -137,7 +137,7 @@ function Footer({ items }) {
         <p>စျေးဝယ်စာရင်းမရှိသေးပါ။</p>
       ) : (
         <p>
-          စျေးဝယ်စာ၇င်း {percentage}% ကိုဝယ်ပီးပါပီ။{" "}
+          စျေးဝယ်စာရင်း {percentage}% ကိုဝယ်ပီးပါပီ။{" "}
           <FontAwesomeIcon icon={faCartShopping} />{" "}
         </p>
       )}
