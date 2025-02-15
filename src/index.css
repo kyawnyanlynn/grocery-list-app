@@ -27,6 +27,7 @@ input,
 button {
   border-radius: 0.5rem;
   border: none;
+  color: #082105;
 }
 .itemForm select {
   font-family: "quicksand", sans-serif;
@@ -54,7 +55,7 @@ input[type="checkbox"] {
 
 .trash-can {
   padding: 3px 0px;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: #082105;
 }
 .list {
