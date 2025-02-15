@@ -49,13 +49,12 @@ button {
   padding: 15px;
 }
 input[type="checkbox"] {
-  transform: scale(2.5);
-  accent-color: #fff;
+  accent-color: #fff; /* Dark green background */
+  border: 2px solid #082105;
+  width: 2rem;
+  height: 1.9rem;
 }
-
 .trash-can {
-  padding: 3px 0px;
-  font-size: 1.5rem;
   color: #082105;
 }
 .list {
@@ -81,6 +80,9 @@ input[type="checkbox"] {
   font-family: "quicksand", sans-serif;
   font-weight: 700;
   font-size: 20px;
+}
+.deleteBtn {
+  font-size: 1.6rem;
 }
 .clearBtn {
   display: flex;

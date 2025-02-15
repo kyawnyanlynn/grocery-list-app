@@ -111,7 +111,7 @@ function Item({ item, onDeleteItem, onToggleItem }) {
       <span style={item.bought ? { textDecoration: "line-through" } : {}}>
         {item.amount} {item.name}
       </span>{" "}
-      <button onClick={() => onDeleteItem(item.id)}>
+      <button className="deleteBtn" onClick={() => onDeleteItem(item.id)}>
         {" "}
         <FontAwesomeIcon icon={faTrashCan} className="trash-can" />{" "}
       </button>
