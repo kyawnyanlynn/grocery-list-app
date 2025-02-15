@@ -50,7 +50,7 @@ button {
 }
 input[type="checkbox"] {
   width: 2rem;
-  height: 1.9rem;
+  height: 35px;
   accent-color: #082105;
 }
 .trash-can {
@@ -84,7 +84,7 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
+  width: 27px;
   height: 35px;
   font-size: 26px;
 }
