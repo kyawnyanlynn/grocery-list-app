@@ -1,0 +1,9 @@
+{
+  "header": "Grocery List",
+  "placeholder": "Item name",
+  "add": "ADD",
+  "noItem": "No grocery list right now.",
+  "clearList": "Clear List",
+  "stats-1": "Already bought ",
+  "stats-2": " of the list."
+}
