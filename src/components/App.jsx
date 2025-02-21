@@ -7,10 +7,7 @@ import { Form } from "./Form";
 import { ItemList } from "./ItemList";
 import { Clear } from "./Clear";
 import { Footer } from "./Footer";
-//   { amount: 1, name: "Onion", bought: false },
-//   { amount: 2, name: "Milk", bought: false },
-//   { amount: 3, name: "Tomatoes", bought: true },
-// ];
+
 export default function App() {
   const [items, setItems] = useState([]);
   function handleAddItems(item) {
