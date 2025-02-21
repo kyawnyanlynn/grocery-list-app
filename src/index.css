@@ -9,6 +9,7 @@ h1 {
   text-align: center;
   color: #fff;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 .wrapper {
   width: 100%;
@@ -27,6 +28,10 @@ h1 {
   border: 1px solid #fff;
   color: #fff;
   padding: 2px;
+  font-size: 1rem;
+}
+.selectLabel:first-child:checked {
+  display: none;
 }
 .itemForm {
   margin: 20px 0px;
@@ -111,6 +116,7 @@ input[type="checkbox"] {
   font-size: 18px;
   padding: 1rem;
 }
+
 .footer {
   text-align: center;
   color: #fff;

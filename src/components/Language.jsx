@@ -5,9 +5,6 @@ export function Language() {
   return (
     <div className="languages">
       <select onChange={(e) => i18n.changeLanguage(e.target.value)}>
-        <option value="" hidden>
-          Languages
-        </option>
         <option value="en">English</option>
         <option value="jp">日本語</option>
         <option value="bur">မြန်မာဘာသာ</option>
